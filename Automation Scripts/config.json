@@ -1,0 +1,8 @@
+{
+    "sort_by" : "extension",
+    "entensions" : {
+        "images" : [".jpg", ".png", ".jpeg"],
+        "documents" : [".pdf", ".docx", ".txt"],
+        "code" : [".py", ".cpp", ".js"]
+    }
+}
