@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+form {
+    margin-top: 20px;
+}
+.color-text {
+    font-weight: bold;
+}
