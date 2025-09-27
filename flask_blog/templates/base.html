@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mini Blog{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('register') }}">Register</a> |
+        <a href="{{ url_for('login') }}">Login</a> |
+        <a href="{{ url_for('add_post') }}">Add Post</a> |
+        <a href="{{ url_for('posts') }}">View Posts</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
